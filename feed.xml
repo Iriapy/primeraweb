@@ -1,0 +1,23 @@
+<!--  La parte fija del fichero xml correspondiente a un rss  -->
+<rss version="2.0">
+<channel>
+<title>Mi primera Web</title>
+<link>https://iriapy.github.io/primeraweb/</link>
+<description>Actualizaciones de mi web</description>
+<!--  La parte fija opcional  -->
+<language>es-ES</language>
+<image>
+<title>Título de la Imagen</title>
+<url>https://iriapy.github.io/primeraweb/logo.png</url>
+<link>https://iriapy.github.io/primeraweb/</link>
+<width>90</width>
+<height>36</height>
+</image>
+<!--  La parte variable, la que corresponde a cada noticia o ítem  -->
+<item>
+<title>Read me</title>
+<link>https://iriapy.github.io/primeraweb/README.md</link>
+<description>Información extra</description>
+</item>
+</channel>
+</rss>
