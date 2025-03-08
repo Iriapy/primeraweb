@@ -19,5 +19,10 @@
 <link>https://iriapy.github.io/primeraweb/README.md</link>
 <description>Información extra</description>
 </item>
+<item>
+<title>Pagina principal</title>
+<link>https://iriapy.github.io/primeraweb/</link>
+<description>mi primera web</description>
+</item>
 </channel>
 </rss>
