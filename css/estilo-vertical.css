@@ -1,0 +1,116 @@
+body{
+    margin: 30px
+}
+main section img{
+    width: 400px;
+    padding: 0px 0px 20px 20px;
+}
+
+#image-div, video{
+    float:left
+}
+#image-div{
+    padding-right: 10px;
+}
+body{
+    background: rgb(235, 235, 137);
+}
+#titulo-principal{
+    font-size: 50px;
+    text-align: center;
+}   
+ul{
+    list-style: georgian;
+}
+ul li{
+    margin-bottom: 25px;
+}
+.formas{
+    font-weight: bold !important;
+    margin-top: 25px;
+}
+
+
+.boton-enlace:hover{
+    background: #575757;
+}
+
+table{
+    border: 4px solid black;
+}
+
+th{
+    color:chocolate
+}
+tr td, th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 15px;
+}
+
+tbody tr:nth-child(1){
+    background-color: orange;
+}
+
+tbody tr:nth-child(2){
+    background: lightcoral;
+}
+
+
+nav{
+    text-align: center;
+}
+
+#formas-combate-titulo{
+    margin-top: 80px
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 1px solid black
+}
+
+#contenedor-flexbox{
+    display: flex;
+}
+
+aside{
+    width: 15%;
+    border-right: 2px solid black
+}
+
+#menu-vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    width: 100%;
+    display: flex;
+}
+
+.boton-enlace{
+    text-decoration: none;
+    width: 100%;
+    margin-right: 30px;
+    background-color:#2e2e2e;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white
+}
+
+#contenedor-principal{
+    padding-left: 40px
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+}
+

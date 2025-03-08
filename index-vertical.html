@@ -5,23 +5,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Diario Ludosporter</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-vertical.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <h1 id="titulo-principal">Ludosport</h1>
-
-            <a href="contacto.html" class="boton-enlace">Contacto</a>
-
-            <a href="galeria.html" class="boton-enlace">Galería imágenes</a>
-
-            <a href="https://www.ludosport.net/" class="boton-enlace">Ludsoport Internacional</a>
-        </nav>
+        <h1 id="titulo-principal">Ludosport</h1>
     </header>
 
-    <main>
+
+
+    <main id="contenedor-flexbox">
+        
+        <aside>
+            <h2>Menú </h2>
+            <nav id="menu-vertical">
+                <ul>
+                    <li><a href="contacto.html" class="boton-enlace">Contacto</a></li>
+                    <li><a href="galeria.html" class="boton-enlace">Galería imágenes</a></li>
+                    <li><a href="https://www.ludosport.net/" class="boton-enlace">Ludsoport Internacional</a></li>
+                </ul>
+               
+            </nav>
+        </aside>
+        <div id="contenedor-principal">
         <section>
             <h2>Qué es</h2>
             <p id="texto-imagen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui impedit explicabo saepe ex
@@ -90,6 +97,9 @@
                 </tbody>
             </table>
         </section>
+
+    </div>
+
     </main>
 
     <footer>
