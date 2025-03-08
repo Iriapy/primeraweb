@@ -2,7 +2,7 @@
 <rss version="2.0">
 <channel>
 <title>Mi primera Web</title>
-<link>https://iriapy.github.io/primeraweb/</link>
+<link>https://iriapy.github.io/primeraweb/feed.xml</link>
 <description>Actualizaciones de mi web</description>
 <!--  La parte fija opcional  -->
 <language>es-ES</language>
